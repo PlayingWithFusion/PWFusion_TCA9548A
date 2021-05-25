@@ -6,6 +6,7 @@ Playing With Fusion TCA9548A based I2C multiplexer library
 Arduino library for the TCA9548A 8-ch I2C multiplexer.  This IC allows up to eight I2C buses to be pragmatically connected to the Arduino. Buses may be connected independently or multiple buses may be connected in parallel.
 
 [IFB-10011](http://www.playingwithfusion.com/productview.php?pdid=113): 8-ch with Qwiic connectors
+
 [IFB-10012](http://www.playingwithfusion.com/productview.php?pdid=114): 8-ch Compact breakout
 
 Usage
