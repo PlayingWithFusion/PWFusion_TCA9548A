@@ -64,7 +64,7 @@ void TCA9548A::setChannel(uint8_t channel) {
 uint8_t TCA9548A::getChannel() {
   uint8_t channel = 0;
   
-  if (_i2cPort->requestFrom(_addr, 1) != 0)
+  if (_i2cPort->requestFrom(_addr, (uint8_t)1) != 0)
   {
     channel = _i2cPort->read();
   }
